@@ -11,7 +11,7 @@ const DashboardToogle = () => {
   const onSignOut = useCallback(() => {
     auth.signOut();
 
-    Alert.info('Signed Out');
+    Alert.info('Signed Out', 4000);
 
     close();
   }, [close]);
